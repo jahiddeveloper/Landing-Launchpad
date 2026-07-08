@@ -261,3 +261,50 @@ nav {
 .say-image {
   border-radius: 50px;
 }
+
+/* Contact */
+
+.contact {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-title {
+  font-size: 100px;
+  font-weight: bold;
+}
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.input {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px 32px;
+  font-size: 20px;
+  color: gray;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px black;
+}
+.touch-btn {
+  width: 100%;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #4E47FF;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.touch-btn:hover {
+  background-color: white;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
+  font-weight: 600;
+  transition-duration: 0.4s;
+}
