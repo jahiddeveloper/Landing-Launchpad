@@ -308,3 +308,40 @@ nav {
   font-weight: 600;
   transition-duration: 0.4s;
 }
+
+/* Footer */
+
+.footer {
+  margin-top: 110px;
+  background-color: #e6e5fc;
+  padding: 100px 0px;
+}
+.foot-title {
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  color: #4E47FF;
+  margin-bottom: 8px;
+}
+.foot-sub {
+  width: 530px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+  color: gray;
+}
+.foot-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.foot-link li {
+  list-style: none;
+}
+.foot-link li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+}
