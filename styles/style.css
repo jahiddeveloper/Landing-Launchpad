@@ -74,3 +74,52 @@ nav {
   border: 1px solid #4e47ff;
   font-weight: 600;
 }
+
+/* Main */
+
+.main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.action {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-title {
+    font-size: 42px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.action-description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #9694ad;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    width: 500px;
+}
+.action-btn {
+  padding: 16px 36px;
+  border: none;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.action-btn:hover {
+  transform: scale(1.03);
+  transition-duration: 0.4s;
+  color: #4e47ff;
+  background-color: white;
+  border: 1px solid #4e47ff;
+  font-weight: 600;
+}
+.action-img {
+    border-radius: 50px;
+}
